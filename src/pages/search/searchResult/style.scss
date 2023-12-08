@@ -1,5 +1,7 @@
 @import "../../../mixins.scss";
 .searchResultsPage {
+  position: absolute;
+  margin-left: 23vmax;
   min-height: 700px;
   padding-top: 100px;
   .resultNotFound {
@@ -9,13 +11,19 @@
   .pageTitle {
     font-size: 24px;
     line-height: 34px;
-    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: black;
     margin-bottom: 25px;
   }
   .content {
     display: flex;
+
     flex-flow: row wrap;
     gap: 10px;
+
     margin-bottom: 50px;
     @include md {
       gap: 20px;

@@ -5,6 +5,7 @@ import PopularShows from "./popularTvShows/PopularTvShow";
 import TrendingShows from "./tvTrending/TvTrendingShow";
 import TopRatedShows from "./tvTopRated/TopRated";
 import TrendingShowByGenre from "./mostTrendingByGenre/TrendingShowByGenre";
+import "./style.scss";
 
 const TvShows = () => {
   return (

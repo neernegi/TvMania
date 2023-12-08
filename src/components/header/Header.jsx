@@ -204,14 +204,10 @@ const Header = () => {
       <ContentWrapper>
         <div className="wrapperNav">
           <ul>
-            <h3 className="logo">TvMania</h3>
+           <Link to={'/tvshows'}>TvMania</Link>
           </ul>
 
           <ul className="menuItems">
-            <Link className="menuItem" to={"/"}>
-              Home
-            </Link>
-
             <Link
               className="menuItem"
               to={"/tvshows"}
@@ -238,27 +234,12 @@ const Header = () => {
               Anime
             </Link>
 
-            <Link className="menuItem" href="#">
-              WatchList
-            </Link>
-
-            <Link className="menuItem" href="#">
-              People
-            </Link>
-
-            <Link className="menuItem" href="#">
-              WebChannels
-            </Link>
-
-            <Link className="menuItem" href="#">
-              Network
-            </Link>
             <Link to={"/search"} className="menuItem searchButton">
               <HiOutlineSearch onClick={openSearch} />
             </Link>
           </ul>
         </div>
-        <div className="loginItems">
+        {/* <div className="loginItems">
           {!user ? (
             <>
               <Link className="loginItem" to={"/login"}>
@@ -274,7 +255,7 @@ const Header = () => {
               <Link className="loginItem">Profile</Link>
             </div>
           )}
-        </div>
+        </div> */}
         <div className="mobileMenuItems">
           <HiOutlineSearch onClick={searchQueryHandler} />
           {mobileMenu ? (

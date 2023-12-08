@@ -6,7 +6,7 @@
   }
   .carouselTitle {
     font-size: 24px;
-    color: white;
+    color: black !important;
     margin-bottom: 20px;
     font-weight: normal;
   }
@@ -148,7 +148,7 @@
         }
       }
       .textBlock {
-        color: white;
+        color: black;
         display: flex;
         flex-direction: column;
         .title {

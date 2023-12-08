@@ -2,7 +2,7 @@ import React from 'react'
 
 const Search = () => {
   return (
-    <div style={{display:"flex",marginTop:"12rem",textAlign:"center",justifyContent:"center"}}>
+    <div style={{display:"flex",textAlign:"center",justifyContent:"center",color:"black"}}>
       <div>
         Movies
       </div>

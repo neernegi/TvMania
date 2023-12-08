@@ -5,6 +5,7 @@ import ContentWrapper from "../../../../components/contentWrapper/ContentWrapper
 import Carousel from "../../../../components/carousel/Carousel";
 import { useParams } from "react-router-dom";
 
+
 const TrendingShowByGenre = () => {
   const [data, setData] = useState(null);
 
