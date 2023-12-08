@@ -210,7 +210,7 @@ const Header = () => {
           <ul className="menuItems">
             <Link
               className="menuItem"
-              to={"/tvshows"}
+              to={"/"}
               onMouseEnter={(event) => handleGenreButtonHover("tv", event)}
               onMouseLeave={handleGenreButtonLeave}
             >
